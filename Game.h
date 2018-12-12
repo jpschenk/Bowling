@@ -7,6 +7,10 @@
 
 
 class Game {
+    int score = 0;
+    int rollCount = 0;
+    int previousRoll = 0;
+    bool spare = false;
 
 public:
     void roll(int pins);
