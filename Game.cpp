@@ -13,7 +13,7 @@ void Game::roll(int pins)
         newScore = newScore * 2;
         spare = false;
     }
-    else if (rollCount % 2 == 0)
+    else if (rollCount % 2 != 0)
     {
         if ((pins + previousRoll) == 10)
         {
